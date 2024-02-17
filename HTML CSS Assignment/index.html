@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="index.css" />
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+          .bg-container {
+            background-color: black;
+            height: 100vh;
+            background-size: cover;
+          }
+
+          .first-card {
+            background: linear-gradient(to right, #f0e8b3, #ffd5c0, #e3a6ec);
+            height: 90vh;
+          }
+          .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f2836f;
+            gap: 10px;
+            height: 40px;
+          }
+
+          .nav-name {
+            color: black;
+            width: 50px;
+            height: 30px;
+            font-size: 10px;
+            font-family: "Roboto";
+            margin-top: 20px;
+            /* margin-left: 10px; */
+          }
+
+          .testimonials{
+              margin-left: 18px;
+          }
+
+          .contact-us{
+              margin-left: 18px;
+          }
+
+          .icon-menu{
+              margin-left: 18px;
+              margin-bottom: 10px;
+          }
+
+          .lorem-ipsum-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 94%;
+          }
+
+          .about-card {
+            /* margin-top: 300px; */
+            margin-bottom: 15px;
+            margin-left: 20px;
+            margin-right: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .heading {
+            font-family: "Lucida Sans";
+            font-weight: 600;
+          }
+
+          .description {
+            font-family: "Lucida Sans";
+            font-size: 10px;
+          }
+
+          .click-me-btn {
+            background-color: #f2836f;
+            border: none;
+            color: #ffffff;
+            height: 30px;
+            width: 100px;
+            font-family: "Lucida Sans";
+            font-size: 10px;
+            margin-top: 20px;
+          }
+
+          .burgur-img {
+            width: 800px;
+            height: 100%;
+            position: relative;
+            object-fit: cover;
+            /* margin-right: 50px; */
+          }
+
+          .second-card {
+            background: linear-gradient(to right, #f0e8b3, #ffd5c0, #e3a6ec);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            /* height: 50vh; */
+          }
+          .imgs-card {
+            display: flex;
+            gap: 5px;
+            /* height: 250px; */
+            margin-left: 20px;
+
+          }
+          .first {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+          }
+          .img {
+            width: 130px;
+            height: 130px;
+          }
+
+          .img1 {
+            margin-top: 180px;
+          }
+          .img2 {
+            margin-bottom: 180px;
+          }
+
+          .img3 {
+            width: 130px;
+            height: 265px;
+            margin-top: 180px;
+            margin-bottom: 50px;
+            margin-right: 15px;
+          }
+          .set-ademir-card {
+            background-color: #ed736d;
+            width: 500px;
+            height: 110px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 30px;
+          }
+
+          .set-card-head1 {
+            font-family: "Lucida Sans";
+            font-size: 12px;
+          }
+
+          .set-card-head2 {
+            font-family: "Lucida Sans";
+            font-size: 20px;
+          }
+
+          .btn-card {
+            display: flex;
+            margin-bottom: 10px;
+          }
+          .ademir-button {
+            background-color: transparent;
+            border: none;
+          }
+          @media screen and (min-width: 768px) {
+              .navbar{
+                  gap: 30px;
+              }
+        .nav-name{
+            width: 50px;
+            height: 30px;
+            font-size: 13px;
+            margin-top: 20px;
+          }
+
+          .testimonials{
+              margin-left: 30px;
+          }
+
+          .contact-us{
+              margin-left: 35px;
+          }
+
+          .icon-menu{
+              margin-left: 18px;
+              margin-bottom: 10px;
+          }
+          .lorem-ipsum-card {
+            height: 94%;
+          }
+          .description {
+            font-family: "Lucida Sans";
+            font-size: 16px;
+          }
+         .burgur-img {
+           width: 570px;
+           height: 100%;
+           object-fit: cover;
+         }
+         .img {
+            width: 150px;
+            height: 150px;
+          }
+
+          .img1 {
+            margin-top: 180px;
+          }
+          .img2 {
+            margin-bottom: 180px;
+          }
+
+          .img3 {
+            width: 150px;
+            height: 305px;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-container">
+      <div class="first-card">
+        <nav class="navbar">
+          <h1 class="nav-name home">Home</h1>
+          <h1 class="nav-name">Order</h1>
+          <h1 class="nav-name">Food</h1>
+          <h1 class="nav-name">Restaurant</h1>
+          <h1 class="nav-name testimonials">Testimonials</h1>
+          <h1 class="nav-name contact-us">Contact Us</h1>
+          <img class="nav-name icon-menu" src="menu-bar.png" alt="menu" />
+        </nav>
+        <div class="lorem-ipsum-card">
+          <div class="about-card">
+            <h1 class="heading">LOREM IPSUM</h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamusid
+              est vitae dolor rhoncus tristique. Maecenas metus quam,rhoncus
+              euismod lorem in, sollicitudin viverra eros. Donecdictum luctus
+              quam ut tristique. Curabitur nec faucibus purus.Quisque congue sem
+              nec justo mollis, in tincidunt erat pretium.Sed pulvinar, massa ac
+              porta viverra.
+            </p>
+            <button class="click-me-btn">Click Me</button>
+          </div>
+          <img src="pexels-robin-stickel-70497.jpg" class="burgur-img" />
+        </div>
+      </div>
+      <div class="second-card">
+        <div class="imgs-card">
+          <div class="first">
+            <img class="img img1" src="pexels-rachel-claire-6752433.jpg" />
+            <img class="img img2" src="pexels-eva-bronzini-6141651.jpg" />
+          </div>
+          <img class="img3" src="pexels-mister-mister-3434523.jpg" />
+        </div>
+        <div class="set-ademir-card">
+          <p class="set-card-head1">LOREM IPSUM</p>
+          <h1 class="set-card-head2">LOREM IPSUM SET ADEMIR</h1>
+          <div class="btn-card">
+            <button class="ademir-button">Click</button>
+            <img src="icons8-arrow-30.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
